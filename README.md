@@ -1,3 +1,3 @@
 # -md-GitHub
-TThis is my first GitHub
-author - Mohammad aman
+This is my first GitHub
+Author - Mohammad aman
