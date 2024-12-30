@@ -1,4 +1,4 @@
 # -md-GitHub
-This is my first GitHub.
+This is my first Resporitory.
 <ber>
 Author - Mohammad aman
