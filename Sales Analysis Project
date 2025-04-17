@@ -1,0 +1,20 @@
+                       ****Sales Insights Data Analysis Project***
+Instructions to setup MySQL on my local computer:- SQL database dump is in the db_dump.sql file on my local computer and import it as per my  intuction which I have performed in lemaonway
+Data Analysis Using SQL:-
+ 1. Show all columns in the record - "SELECT * FROM sales.customers;"
+ 2. Show the total number of customers - "SELECT COUNT(*) FROM sales.customers:"
+ 3. Show transactions for Chennai market(market code for chennai is Mark001) - "SELECT * FROM transactions where market_code="Mark001":'
+ 4. Show distinct product codes that were sold in Chennai -
+    "SELECT DISTINCT product_code FROM  sales.transactions where market_code = "Mark001":"
+ 5. Show Transactions where currency is USD Dollars -
+    "SELECT * FROM sales.transactions where currency="USD":"
+ 6. Show total revenue in year 2020 in chennai -
+    "  select sum( sales.transactions.sales_amount) from sales.transactions inner join sales.date on sales.transactions.order_date=sales.date.date where sales.date.year=2020;"
+ 7. Show transactions in 2020 join by date table -
+    "select sales.transactions.*,sales.date.* from sales.transactions inner join sales.date on sales.transactions.order_date=sales.date.date where sales.date.year=2020;"
+ 8. Show 
+
+IN PowerBI, there is a formula to convert some USD ti INR currency in the form of sales_amount -
+    "= Table.AddColumn(#"Filtered Rows", "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else [sales_amount])"
+So here we are using the above formula, we can perform the ETL function, which is called "Extract Transform Load", the data from Power Query Editor. It is mostly used for data where Housing for organising the data.
+
