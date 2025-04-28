@@ -1,0 +1,17 @@
+�� Predicting House Prices - Linear Regression Project (Highlights)
+Objective: Build a predictive model to estimate house prices based on various features (like area, location, etc.).
+Approach:
+* Data cleaning and exploration.
+* Feature selection and engineering.
+* Applied Simple Linear Regression and Multiple Linear Regression models.
+Key Techniques:
+* Correlation analysis to find impactful variables.
+* Train-test split for model validation.
+* Evaluation metrics: R² Score, Mean Squared Error (MSE).
+Result:
+* Developed a regression model that accurately predicts house prices.
+* Achieved a high R² score, indicating good model performance.
+* Tools Used: Python, Pandas, NumPy, Matplotlib, Scikit-learn.
+Impact:
+Helps buyers and sellers make data-driven decisions.
+Demonstrates real-world application of machine learning in the real estate industry.
