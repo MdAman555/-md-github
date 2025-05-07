@@ -1,7 +1,6 @@
 * 🚀 MdAman555
 * my first repositary
 
-
 * 📌 About Me
 Hello! I’m Mohammad Aman, an aspiring Data Analyst passionate about extracting insights from data and solving business problems with data-driven solutions. I’m currently working on improving my skills in Python, SQL, Machine Learning, and Power BI to build a strong foundation in Data Science.
 * 🛠️ Skills & Technologies
